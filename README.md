@@ -1,5 +1,11 @@
 # ROCKSYDNEY WIKI
 
+## Table of Contents
+1. [Banner Design Guideline](#banner-design-guideline)
+2. [CMS Manual](#cms-manual)
+   1. [Uploading Banner](#uploading-banner)
+   2. [Sorting Banner Order](#sorting-banner-order)
+
 
 ## Banner Design Guideline
 
@@ -20,8 +26,8 @@ To upload the banner, you need to login to the [CMS](https://rocksydney.org.au/a
 2. Enter a title
 3. Make sure the **Slide Background Type** is _Image_
 4. Click on the _Upload_ button next to **Slide Image**. 
-..1. After clicking the Upload button, you can choose an image if it's already uploaded from the **Media Library** or if it hasn't been uploaded, you can drag & drop the image you want to upload.
-..2. Then after the image is uploaded, click the image and press Select Image
+   1. After clicking the Upload button, you can choose an image if it's already uploaded from the **Media Library** or if it hasn't been uploaded, you can drag & drop the image you want to upload.
+   2. Then after the image is uploaded, click the image and press Select Image
 
 ![Banner Upload Manual](https://github.com/viperfx07/rocksydney-wiki/raw/master/upload_banner_2.jpg)
 

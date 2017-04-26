@@ -5,15 +5,15 @@
 
 The optimal size for the website banner is 1920 x 543px. 
 
-![Banner Guideline](https://github.com/viperfx07/rocksydney_banner_guideline.jpg)
+![Banner Guideline](https://github.com/viperfx07/rocksydney-wiki/raw/master/rocksydney_banner_guideline.jpg)
 
-The mobile safe area is the area where copy should sit so that it shows correctly on various screen size on any devices. I've prepared the Guides in a PSD file for design convenience. Please download it [here](https://github.com/viperfx07/rocksydney_banner_guideline.psd).
+The mobile safe area is the area where copy should sit so that it shows correctly on various screen size on any devices. I've prepared the Guides in a PSD file for design convenience. Please download it [here](https://github.com/viperfx07/rocksydney-wiki/raw/master/rocksydney_banner_guideline.psd).
 
 
 ## CMS Manual
 
 ### Uploading Banner
-![Banner Upload Manual](https://github.com/viperfx07/upload_banner_1.jpg)
+![Banner Upload Manual](https://github.com/viperfx07/rocksydney-wiki/raw/master/upload_banner_1.jpg)
 
 To upload the banner, you need to login to the [CMS](https://rocksydney.org.au/admin). After logging in, please follow below steps:
 1. Hover on `QODE Slider` and choose `Add New Slide`. After choosing `Add New Slide`, you will see the page as per screenshot above.
@@ -23,14 +23,14 @@ To upload the banner, you need to login to the [CMS](https://rocksydney.org.au/a
 ..1. After clicking the Upload button, you can choose an image if it's already uploaded from the **Media Library** or if it hasn't been uploaded, you can drag & drop the image you want to upload.
 ..2. Then after the image is uploaded, click the image and press Select Image
 
-![Banner Upload Manual](https://github.com/viperfx07/upload_banner_2.jpg)
+![Banner Upload Manual](https://github.com/viperfx07/rocksydney-wiki/raw/master/upload_banner_2.jpg)
 
 5. Select **Main** under Sliders / All Sliders tab.
 6. Click `Publish` to publish your changes.
 
 ### Sorting Banner Order
 
-![Banner Upload Manual](https://github.com/viperfx07/upload_banner_3.jpg)
+![Banner Upload Manual](https://github.com/viperfx07/rocksydney-wiki/raw/master/upload_banner_3.jpg)
 
 To re-ordering the banner is fairly simple. Hover on `QODE Slider` and choose `Slides`. After choosing `Slides`, you will see the page as per screenshot above.
 1. Navigate your mouse to the slide you want to edit, then click **Quick Edit**. 

@@ -5,7 +5,7 @@
 2. [CMS Manual](#cms-manual)
    1. [Uploading Banner](#uploading-banner)
    2. [Sorting Banner Order](#sorting-banner-order)
-
+3. [Embedding Online Video](#embedding-online-video)
 
 ## Banner Design Guideline
 
@@ -14,7 +14,6 @@ The optimal size for the website banner is 1920 x 543px.
 ![Banner Guideline](https://github.com/viperfx07/rocksydney-wiki/raw/master/rocksydney_banner_guideline.jpg)
 
 The mobile safe area is the area where copy should sit so that it shows correctly on various screen size on any devices. I've prepared the Guides in a PSD file for design convenience. Please download it [here](https://github.com/viperfx07/rocksydney-wiki/raw/master/rocksydney_banner_guideline.psd).
-
 
 ## CMS Manual
 
@@ -42,3 +41,13 @@ To re-ordering the banner is fairly simple. Hover on `QODE Slider` and choose `S
 1. Navigate your mouse to the slide you want to edit, then click **Quick Edit**. 
 2. The smaller the number entered in _Order_, will be shown first before a greater number. Note: You may need to check the other slides' order as well
 3. After entering the _Order_, click **Update**.
+
+
+## Embedding online video
+![Embedding Video](https://github.com/viperfx07/rocksydney-wiki/raw/master/embedding-video.jpg)
+1. Copy the url of the video you'd like to embed
+2. Go to https://embedresponsively.com
+3. If the url is **Youtube**, choose tab **Youtube.com** and paste it on the input box
+4. Click **Embed**
+5. Copy starting `<div class='embed-container'>` to `</div>` (highlighted on the picture)
+6. Paste it on the Wordpress text editor

@@ -50,6 +50,7 @@ To re-ordering the banner is fairly simple. Hover on `QODE Slider` and choose `S
 
 **Note:** _If you have done step 1 - 3, please skip to 4 forwards. Steps below were done in Chrome and for Youtube video only_
 1. Copy the source below
+
 ``javascript:(()=>{
 	var youtube_parser = (url) =>{ 
 		var regExp = /^.*((youtu.be\/)|(v\/)|(\/u\/\w\/)|(embed\/)|(watch\?))\??v?=?([^#\&\?]*).*/; 
@@ -58,6 +59,7 @@ To re-ordering the banner is fairly simple. Hover on `QODE Slider` and choose `S
 	var x = prompt('Enter youtube video url: '); 
 	alert(`<div class='embed-container'><iframe src='https://youtube.com/embed/${youtube_parser(x)}' frameborder='0' allowfullscreen></iframe></div>`)
 })()``
+
 
 ![Adding bookmark](https://github.com/viperfx07/rocksydney-wiki/raw/master/embed_video_1.jpg)
 

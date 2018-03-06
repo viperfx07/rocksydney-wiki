@@ -44,10 +44,48 @@ To re-ordering the banner is fairly simple. Hover on `QODE Slider` and choose `S
 
 
 ## Embedding online video
+
+
+### Offline way (Fastest)
+
+**Note:** _If you have done step 1 - 3, please skip to 4 forwards. Steps below were done in Chrome and for Youtube video only_
+1. Copy the source below
+``javascript:(()=>{
+	var youtube_parser = (url) =>{ 
+		var regExp = /^.*((youtu.be\/)|(v\/)|(\/u\/\w\/)|(embed\/)|(watch\?))\??v?=?([^#\&\?]*).*/; 
+		var match = url.match(regExp); return (match&&match[7].length==11)? match[7] : false; 
+	}; 
+	var x = prompt('Enter youtube video url: '); 
+	alert(`<div class='embed-container'><iframe src='https://youtube.com/embed/${youtube_parser(x)}' frameborder='0' allowfullscreen></iframe></div>`)
+})()``
+
+![Adding bookmark](https://github.com/viperfx07/rocksydney-wiki/raw/master/embed_video_1.jpg)
+
+2. Create a bookmark by right clicking the bookmark area and choose **Add page**
+
+![Adding bookmark](https://github.com/viperfx07/rocksydney-wiki/raw/master/embed_video_2.jpg)
+
+3. Give whatever name you want and paste the source from **step 1** in the URL box
+4. Once the bookmark is created, copy the video url you'd like to embed
+
+![Adding bookmark](https://github.com/viperfx07/rocksydney-wiki/raw/master/embed_video_3.jpg)
+
+5. Click the bookmark and paste the video url
+
+![Adding bookmark](https://github.com/viperfx07/rocksydney-wiki/raw/master/embed_video_4.jpg)
+
+6. You will see a popup as above screenshot. Copy the highlighted part starting from `<div class='embed-container'>` to `</div>`
+
+6. Paste it on the Wordpress editor
+
+### Online way
+
 ![Embedding Video](https://github.com/viperfx07/rocksydney-wiki/raw/master/embedding-video.jpg)
+
 1. Copy the url of the video you'd like to embed
 2. Go to https://embedresponsively.com
 3. If the url is **Youtube**, choose tab **Youtube.com** and paste it on the input box
 4. Click **Embed**
-5. Copy starting `<div class='embed-container'>` to `</div>` (highlighted on the picture)
-6. Paste it on the Wordpress text editor
+5. Copy starting from `<div class='embed-container'>` to `</div>` (highlighted on the picture)
+6. Paste it on the Wordpress editor
+

@@ -54,7 +54,7 @@ To re-ordering the banner is fairly simple. Hover on `QODE Slider` and choose `S
 ``javascript:(()=>{
 	var youtube_parser = (url) =>{ 
 		var regExp = /^.*((youtu.be\/)|(v\/)|(\/u\/\w\/)|(embed\/)|(watch\?))\??v?=?([^#\&\?]*).*/; 
-		var match = url.match(regExp); return (match&&match[7].length==11)? match[7] : false; 
+		var match = url.match(regExp); return (match&&match[7].length>=10)? match[7] : false; 
 	}; 
 	var x = prompt('Enter youtube video url: '); 
 	alert(`<div class='embed-container'><iframe src='https://youtube.com/embed/${youtube_parser(x)}' frameborder='0' allowfullscreen></iframe></div>`)
